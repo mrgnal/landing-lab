@@ -1,226 +1,74 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LaunchHub — Product Launch Community</title>
+  <title>Noble Finances</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
-    <nav class="navbar">
-      <a href="#" class="logo">
-        <span class="logo-mark">L</span>
-        LaunchHub
-      </a>
-
-      <ul class="nav-links">
-        <li><a href="#features">Features</a></li>
-        <li><a href="#launches">Launches</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#community">Community</a></li>
-      </ul>
-
-      <a href="#" class="nav-btn">Join waitlist</a>
+  <section class="hero">
+    <nav class="nav">
+      <a class="logo" href="#">Noble Finances</a>
+      <div class="nav-links"><a href="#services">Services</a><a class="nav-btn" href="#contact">Book an appointment</a></div>
     </nav>
-
-    <section class="hero">
-      <div class="hero-content">
-        <p class="badge">🚀 Product Launch Community</p>
-        <h1>Launch your next product with a community behind you</h1>
-        <p class="hero-text">
-          Discover new products, collect feedback, connect with makers and build momentum before your official launch.
-        </p>
-
-        <div class="hero-actions">
-          <a href="#" class="btn primary">Start your launch</a>
-          <a href="#" class="btn secondary">Explore products</a>
-        </div>
-
-        <div class="stats">
-          <div>
-            <strong>12k+</strong>
-            <span>makers</span>
-          </div>
-          <div>
-            <strong>4.8k+</strong>
-            <span>launches</span>
-          </div>
-          <div>
-            <strong>98%</strong>
-            <span>positive feedback</span>
-          </div>
-        </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Financial Clarity You Can Trust</h1>
+        <p>Trusted financial guidance for every stage of life and business since 1987</p>
+        <a class="btn dark" href="#contact">Connect with our experts</a>
       </div>
-
-      <div class="hero-card">
-        <div class="card-header">
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
-
-        <div class="product-preview">
-          <div class="preview-icon">⚡</div>
-          <div>
-            <h3>Nova AI Assistant</h3>
-            <p>AI workflow tool for startup teams</p>
-          </div>
-        </div>
-
-        <div class="progress-box">
-          <div class="progress-title">
-            <span>Launch progress</span>
-            <strong>82%</strong>
-          </div>
-          <div class="progress">
-            <span></span>
-          </div>
-        </div>
-
-        <div class="mini-grid">
-          <div>
-            <strong>1.2k</strong>
-            <span>Upvotes</span>
-          </div>
-          <div>
-            <strong>347</strong>
-            <span>Comments</span>
-          </div>
-        </div>
-      </div>
-    </section>
-  </header>
+      <div class="hero-image"><img src="assets/globe.jpg" alt="Finance globe illustration" /></div>
+    </div>
+  </section>
 
   <main>
-    <section class="section" id="features">
-      <div class="section-title">
-        <p class="badge">Features</p>
-        <h2>Everything you need for a successful launch</h2>
-        <p>Plan, publish and grow your product with tools made for makers and early adopters.</p>
-      </div>
+    <section class="intro" id="services">
+      <span>Services</span>
+      <h2>Let us handle the numbers,<br>so you can handle your success.</h2>
+      <p>Serving individuals and small businesses since 1987</p>
+      <a class="btn dark" href="#contact">Schedule a call</a>
+    </section>
 
-      <div class="features-grid">
-        <article class="feature-card">
-          <span>🎯</span>
-          <h3>Launch pages</h3>
-          <p>Create a clean public page for your product with description, images and call-to-action.</p>
-        </article>
+    <section class="service-cards">
+      <article class="service-card card-left">
+        <div class="service-img"><img src="assets/coins-phone.jpg" alt="Tax preparation illustration" /></div>
+        <div class="service-info"><h3>Tax Preparation &<br>Filing</h3><p>Accurately prepare and file personal and business tax returns to maximize deductions and ensure compliance.</p><div class="tags"><span>1099 taxes</span><span>Dependents</span><span>Trust Taxes</span></div></div>
+      </article>
+      <article class="service-card card-right">
+        <div class="service-info"><h3>IRS Audit Assistance</h3><p>Offer expert guidance and representation to resolve tax audits and disputes with confidence.</p><div class="tags"><span>1099 taxes</span><span>Dependents</span><span>Trust Taxes</span></div></div>
+        <div class="service-img"><img src="assets/dashboard.jpg" alt="Audit assistance illustration" /></div>
+      </article>
+      <article class="service-card card-left">
+        <div class="service-img service-img-large"><img src="assets/safe.jpg" alt="Bookkeeping safe illustration" /></div>
+        <div class="service-info"><h3>Bookkeeping &<br>Accounting</h3><p>Maintain organized financial records and provide clear reports to support business growth and financial health.</p><div class="tags"><span>1099 taxes</span><span>Dependents</span><span>Trust Taxes</span></div></div>
+      </article>
+    </section>
 
-        <article class="feature-card">
-          <span>💬</span>
-          <h3>Real feedback</h3>
-          <p>Collect comments, questions and ideas from people who are interested in your product.</p>
-        </article>
-
-        <article class="feature-card">
-          <span>📈</span>
-          <h3>Growth analytics</h3>
-          <p>Track views, upvotes and conversion metrics to understand what works best.</p>
-        </article>
+    <section class="testimonials">
+      <h2>Hear From Our Happy Clients</h2>
+      <div class="testimonial-grid">
+        <aside class="client-tabs"><div class="client active"><h4>Graphic Designer</h4><p>Ontario, Canada</p></div><div class="client"><h4>Commercial Photographer</h4><p>Ontario, Canada</p></div><div class="client"><h4>Stylist</h4><p>Austin Texas</p></div></aside>
+        <div class="quote"><p>“Managing my taxes as a freelancer used to be overwhelming, but Noble Finance made it effortless.”</p><div class="person"><div class="avatar"></div><span>Taylor M., 28 years old</span></div></div>
       </div>
     </section>
 
-    <section class="section launches" id="launches">
-      <div class="launch-content">
-        <p class="badge">Trending launches</p>
-        <h2>Discover products before everyone else</h2>
-        <p>
-          Browse the newest tools, apps and platforms created by indie founders, designers and startups.
-        </p>
-        <a href="#" class="btn primary">View all launches</a>
-      </div>
+    <section class="photo-block"><img src="assets/finance-photo.jpg" alt="Person working on finance laptop" /></section>
 
-      <div class="launch-list">
-        <article class="launch-card">
-          <div class="launch-icon">🤖</div>
-          <div>
-            <h3>TaskPilot</h3>
-            <p>AI task manager for busy teams</p>
-          </div>
-          <strong>894 ▲</strong>
-        </article>
-
-        <article class="launch-card">
-          <div class="launch-icon">🎨</div>
-          <div>
-            <h3>Brandly</h3>
-            <p>Fast brand kit generator</p>
-          </div>
-          <strong>721 ▲</strong>
-        </article>
-
-        <article class="launch-card">
-          <div class="launch-icon">📊</div>
-          <div>
-            <h3>MetricFlow</h3>
-            <p>Simple analytics dashboard</p>
-          </div>
-          <strong>536 ▲</strong>
-        </article>
+    <section class="audience">
+      <div class="audience-head"><h2>Smart Finance for<br>everyone</h2><p>At Noble Finance, we believe that financial confidence should be accessible to everyone—whether you’re a solo entrepreneur, managing a growing family, or running a small business.</p></div>
+      <div class="audience-grid">
+        <article><div class="icon">▰</div><h3>For Freelancers</h3><h4>Simplicity & Control</h4><p>Stay in charge of your income with seamless expense tracking, automated deductions, and smart tax strategies—so you can focus on doing what you love.</p></article>
+        <article><div class="icon">♟</div><h3>For Families</h3><h4>Stability & Security</h4><p>From budgeting tools to tax-saving insights, we help you plan for the future, maximize refunds, and keep your household finances running smoothly.</p></article>
+        <article><div class="icon">▣</div><h3>For Small<br>Businesses</h3><h4>Stability & Security</h4><p>Effortless bookkeeping, payroll solutions, and expert-backed tax support—so you can spend less time on finances and more time scaling your business.</p></article>
       </div>
     </section>
 
-    <section class="section" id="pricing">
-      <div class="section-title">
-        <p class="badge">Pricing</p>
-        <h2>Simple plans for every maker</h2>
-      </div>
+    <section class="plan"><article class="plan-text"><h2>A custom built plan for you</h2><p>At Noble Finances, we believe that tax filing should be seamless, accurate, and stress-free. Our approach is centered on three key pillars: simplicity, accuracy, and security.</p><a class="btn light" href="#">Learn More</a></article><article class="plan-image"><img src="assets/stairs.jpg" alt="Wooden stairs" /></article></section>
 
-      <div class="pricing-grid">
-        <article class="price-card">
-          <h3>Free</h3>
-          <p>For personal experiments</p>
-          <strong>$0</strong>
-          <ul>
-            <li>1 product launch</li>
-            <li>Basic analytics</li>
-            <li>Community access</li>
-          </ul>
-          <a href="#" class="btn secondary">Get started</a>
-        </article>
-
-        <article class="price-card active">
-          <h3>Pro</h3>
-          <p>For serious product launches</p>
-          <strong>$19</strong>
-          <ul>
-            <li>Unlimited launches</li>
-            <li>Advanced analytics</li>
-            <li>Featured placement</li>
-          </ul>
-          <a href="#" class="btn primary">Choose Pro</a>
-        </article>
-
-        <article class="price-card">
-          <h3>Team</h3>
-          <p>For startups and agencies</p>
-          <strong>$49</strong>
-          <ul>
-            <li>Team workspace</li>
-            <li>Priority support</li>
-            <li>Custom branding</li>
-          </ul>
-          <a href="#" class="btn secondary">Contact us</a>
-        </article>
-      </div>
-    </section>
-
-    <section class="cta" id="community">
-      <p class="badge">Join the community</p>
-      <h2>Ready to launch something people will notice?</h2>
-      <p>Start building your product page today and get feedback from early users.</p>
-      <a href="#" class="btn primary">Join LaunchHub</a>
-    </section>
+    <section class="cta" id="contact"><h2>We believe that tax filing should be seamless, accurate, and stress-free. Get started with Noble Finance today!</h2><a class="btn dark big" href="#">Connect with our experts</a></section>
   </main>
 
-  <footer class="footer">
-    <p>© 2026 LaunchHub. All rights reserved.</p>
-    <div>
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a>
-      <a href="#">Contact</a>
-    </div>
-  </footer>
+  <footer class="footer"><div class="footer-top"><a class="footer-logo" href="#">Noble Finances</a><div class="footer-links"><a href="#services">Services</a><a class="footer-btn" href="#contact">Book An Appointment</a></div></div><div class="footer-bottom"><div><h4>Financial Clarity You Can Trust</h4><p>Trusted financial guidance for every stage of life and business since 1987</p></div><p>© 2026 All Rights Reserved</p></div></footer>
 </body>
 </html>
